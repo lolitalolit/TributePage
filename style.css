@@ -1,3 +1,11 @@
+.responsive {
+  width: 100%;
+  display: block;
+  max-width: fit-content;
+  height: auto;
+  margin: 0 auto;
+}
+
 body {
   font-family: system-ui;
   background: #e59866;
@@ -12,7 +20,7 @@ body {
   background: #f6ddcc;
 }
 
-main {
+#main {
   display: block;
 }
 
@@ -33,19 +41,18 @@ main {
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 ul {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
 }
-
